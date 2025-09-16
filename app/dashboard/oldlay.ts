@@ -1,0 +1,33 @@
+// oldlay.tsx
+
+// import { ReactNode } from "react";
+// import { requireUser } from "../utils/hooks";
+// import { Link } from "lucide-react";
+// import Image from "next/image";
+// import Logo from "@/public/logo.png";
+// export default async function DashboardLayout({
+//   children,
+// }: {
+//   children: ReactNode;
+// }) {
+//   const session = await requireUser();
+//   return (
+//     <>
+// <div className="grid min-h-screen w-full md:gird-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
+//   <div className="hidden border-r bg-muted/40 md:block">
+//     <div className="flex flex-col max-h-screen h-full gap-2">
+//       <div className="h-14 flex items-center border-b px-4 lg:h-[60px] lg:px-6">
+//         <Link href="/" className="flex items-center">
+//           <Image src={Logo} alt="Logo" className="size-7" />
+//         </Link>
+//       </div>
+//     </div>
+//   </div>
+// </div>
+
+//     </>
+//   );
+// }
+
+// //"@/public/logo.png";
+
